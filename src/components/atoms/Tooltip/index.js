@@ -18,7 +18,7 @@ export const perpendicular = ({ position }) =>
 export const perpendicularOpposite = props => opposites[perpendicular(props)]
 
 export const perpendicularAxis = ({ position }) =>
-  position === 'left' || position === 'right' ? 'Y' : 'X'
+  position === 'left' || position === 'right' ? './' : './'
 
 const backgroundColor = ifProp('reverse', 'rgba(255, 255, 255, 0.85)', 'rgba(0, 0, 0, 0.85)')
 

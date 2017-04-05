@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import PrimaryNavigation from '.'
+import PrimaryNavigation from './'
 
 const wrap = (props = {}) => shallow(<PrimaryNavigation {...props} />)
 

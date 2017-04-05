@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import Blockquote from '.'
+import Blockquote from './'
 
 const wrap = (props = {}) => shallow(<Blockquote {...props} />).dive()
 

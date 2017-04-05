@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@kadira/storybook'
-import Badge from '.'
+import Badge from './'
 
 storiesOf('Badge', module)
   .add('default', () => (

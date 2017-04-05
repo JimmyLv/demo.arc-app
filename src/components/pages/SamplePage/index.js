@@ -1,6 +1,8 @@
 import React from 'react'
 
-import { PageTemplate, Header, Footer, Paragraph, Heading } from 'components'
+import { PageTemplate } from '../../templates'
+import { Header, Footer } from '../../organisms'
+import { Paragraph, Heading } from '../../atoms'
 
 const SamplePage = () => {
   return (

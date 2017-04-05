@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@kadira/storybook'
-import Paragraph from '.'
+import Paragraph from './'
 
 storiesOf('Paragraph', module)
   .add('default', () => (

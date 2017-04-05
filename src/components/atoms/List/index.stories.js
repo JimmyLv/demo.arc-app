@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@kadira/storybook'
-import List from '.'
+import List from './'
 
 storiesOf('List', module)
   .add('default', () => (

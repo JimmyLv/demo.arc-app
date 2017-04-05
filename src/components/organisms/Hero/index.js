@@ -2,7 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { palette } from 'styled-theme'
 
-import { Block, Paragraph, IconLink, IconButton, LogoImage, Tooltip } from 'components'
+import { Block, Paragraph, LogoImage, Tooltip } from '../../atoms'
+import { IconLink, IconButton } from '../../molecules'
 
 const Wrapper = styled(Block)`
   display: flex;
@@ -46,7 +47,10 @@ const Hero = (props) => {
     <Wrapper opaque reverse {...props}>
       <Logo />
       <Text>
-        <strong>ARc</strong> is a <IconLink reverse icon="react" href="https://facebook.github.io/react/">React</IconLink> starter kit based on the <IconLink reverse icon="atomic-design" href="http://bradfrost.com/blog/post/atomic-web-design/">Atomic Design</IconLink> methodology. It&apos;s <strong>progressive</strong>, which means that you can start with the basic boilerplate and try the other features when you are comfortable.
+        <strong>ARc</strong> is a <IconLink reverse icon="react" href="https://facebook.github.io/react/">React</IconLink> starter kit based
+        on the <IconLink reverse icon="atomic-design" href="http://bradfrost.com/blog/post/atomic-web-design/">Atomic
+        Design</IconLink> methodology. It&apos;s <strong>progressive</strong>, which means that you can start with the
+        basic boilerplate and try the other features when you are comfortable.
       </Text>
       <Tooltip data-title="Just a fancy tooltip 😊" reverse>
         <StyledIconButton

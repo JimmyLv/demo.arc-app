@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import TableCell from '.'
+import TableCell from './'
 
 const wrap = (props = {}) => shallow(<TableCell {...props} />).dive()
 

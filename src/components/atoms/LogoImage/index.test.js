@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import LogoImage from '.'
+import LogoImage from './'
 
 const wrap = (props = {}) => shallow(<LogoImage {...props} />)
 

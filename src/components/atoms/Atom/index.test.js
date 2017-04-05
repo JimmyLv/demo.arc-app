@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import Atom from '.'
+import Atom from './'
 
 const wrap = (props = {}) => shallow(<Atom {...props} />)
 

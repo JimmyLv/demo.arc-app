@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import Tooltip, { opposite, perpendicular, perpendicularAxis } from '.'
+import Tooltip, { opposite, perpendicular, perpendicularAxis } from './'
 
 const wrap = (props = {}) => shallow(
   <Tooltip data-title="title" {...props}>
@@ -48,8 +48,8 @@ test('perpendicular', () => {
 })
 
 test('perpendicularAxis', () => {
-  expect(perpendicularAxis({ position: 'top' })).toBe('X')
-  expect(perpendicularAxis({ position: 'right' })).toBe('Y')
-  expect(perpendicularAxis({ position: 'bottom' })).toBe('X')
-  expect(perpendicularAxis({ position: 'left' })).toBe('Y')
+  expect(perpendicularAxis({ position: 'top' })).toBe('./')
+  expect(perpendicularAxis({ position: 'right' })).toBe('./')
+  expect(perpendicularAxis({ position: 'bottom' })).toBe('./')
+  expect(perpendicularAxis({ position: 'left' })).toBe('./')
 })

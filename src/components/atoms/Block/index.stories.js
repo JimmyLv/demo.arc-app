@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@kadira/storybook'
-import Block from '.'
+import Block from './'
 
 storiesOf('Block', module)
   .add('default', () => (

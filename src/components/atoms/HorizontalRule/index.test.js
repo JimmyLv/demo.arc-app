@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import HorizontalRule from '.'
+import HorizontalRule from './'
 
 const wrap = (props = {}) => shallow(<HorizontalRule {...props} />)
 

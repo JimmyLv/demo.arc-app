@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import Caption from '.'
+import Caption from './'
 
 const wrap = (props = {}) => shallow(<Caption {...props} />)
 

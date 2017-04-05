@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import Badge from '.'
+import Badge from './'
 
 const wrap = (props = {}) => shallow(<Badge {...props} />)
 

@@ -1,6 +1,7 @@
 import React from 'react'
 
-import { PageTemplate, Header, Hero, Footer, FeatureList } from 'components'
+import { PageTemplate } from '../../templates'
+import { Header, Hero, Footer, FeatureList } from '../../organisms'
 
 const HomePage = () => {
   return (

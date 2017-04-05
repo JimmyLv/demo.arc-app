@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import List from '.'
+import List from './'
 
 const wrap = (props = {}) => shallow(<List {...props} />).dive()
 

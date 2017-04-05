@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import TableRow from '.'
+import TableRow from './'
 
 const wrap = (props = {}) => shallow(<TableRow {...props} />)
 

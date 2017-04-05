@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import FeatureList from '.'
+import FeatureList from './'
 
 const wrap = (props = {}) => shallow(<FeatureList {...props} />)
 

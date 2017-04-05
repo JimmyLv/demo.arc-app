@@ -1,6 +1,6 @@
 import React from 'react'
 import { mount, shallow } from 'enzyme'
-import GenericTemplate from '.'
+import GenericTemplate from './'
 
 const wrap = (props = {}) => shallow(
   <GenericTemplate {...props}>test</GenericTemplate>
